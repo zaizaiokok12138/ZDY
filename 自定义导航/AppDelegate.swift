@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  demo3
 //
-//  Created by guest on 2018/5/30.
+//  Created by zaizai on 2018/5/30.
 //  Copyright © 2018年 guest. All rights reserved.
 //
 
@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let navc = BaseTabBarController()
+        self.window?.rootViewController = navc
         return true
     }
 

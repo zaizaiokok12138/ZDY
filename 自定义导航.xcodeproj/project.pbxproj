@@ -7,64 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC65F27920C03295008187FB /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F27820C03295008187FB /* BaseTabBarController.swift */; };
+		AC65F27B20C03362008187FB /* FenLeiviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F27A20C03362008187FB /* FenLeiviewcontroller.swift */; };
+		AC65F27D20C03370008187FB /* WoDeviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F27C20C03370008187FB /* WoDeviewcontroller.swift */; };
+		ACC1618320BF98C900143A58 /* ShouYeviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1618220BF98C900143A58 /* ShouYeviewcontroller.swift */; };
 		ACF32B3F20BEE58300EF4C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B3E20BEE58300EF4C51 /* AppDelegate.swift */; };
-		ACF32B4120BEE58300EF4C51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B4020BEE58300EF4C51 /* ViewController.swift */; };
 		ACF32B4420BEE58300EF4C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF32B4220BEE58300EF4C51 /* Main.storyboard */; };
 		ACF32B4620BEE58300EF4C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF32B4520BEE58300EF4C51 /* Assets.xcassets */; };
 		ACF32B4920BEE58300EF4C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF32B4720BEE58300EF4C51 /* LaunchScreen.storyboard */; };
-		ACF32B5420BEE58300EF4C51 /* demo3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B5320BEE58300EF4C51 /* demo3Tests.swift */; };
-		ACF32B5F20BEE58300EF4C51 /* demo3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B5E20BEE58300EF4C51 /* demo3UITests.swift */; };
+		ACF32B6D20BEE63700EF4C51 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B6C20BEE63700EF4C51 /* BaseViewController.swift */; };
+		ACF32B6F20BEE94500EF4C51 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B6E20BEE94500EF4C51 /* BaseNavigationController.swift */; };
+		ACF32B7120BEF0A600EF4C51 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF32B7020BEF0A600EF4C51 /* oneViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		ACF32B5020BEE58300EF4C51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACF32B3320BEE58300EF4C51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACF32B3A20BEE58300EF4C51;
-			remoteInfo = demo3;
-		};
-		ACF32B5B20BEE58300EF4C51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACF32B3320BEE58300EF4C51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACF32B3A20BEE58300EF4C51;
-			remoteInfo = demo3;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		ACF32B3B20BEE58300EF4C51 /* demo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC65F27820C03295008187FB /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		AC65F27A20C03362008187FB /* FenLeiviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenLeiviewcontroller.swift; sourceTree = "<group>"; };
+		AC65F27C20C03370008187FB /* WoDeviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoDeviewcontroller.swift; sourceTree = "<group>"; };
+		ACC1618220BF98C900143A58 /* ShouYeviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouYeviewcontroller.swift; sourceTree = "<group>"; };
+		ACF32B3B20BEE58300EF4C51 /* 自定义导航.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义导航.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF32B3E20BEE58300EF4C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF32B4020BEE58300EF4C51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACF32B4320BEE58300EF4C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF32B4520BEE58300EF4C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF32B4820BEE58300EF4C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF32B4A20BEE58300EF4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF32B4F20BEE58300EF4C51 /* demo3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACF32B5320BEE58300EF4C51 /* demo3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo3Tests.swift; sourceTree = "<group>"; };
-		ACF32B5520BEE58300EF4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF32B5A20BEE58300EF4C51 /* demo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACF32B5E20BEE58300EF4C51 /* demo3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo3UITests.swift; sourceTree = "<group>"; };
-		ACF32B6020BEE58400EF4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF32B6C20BEE63700EF4C51 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		ACF32B6E20BEE94500EF4C51 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		ACF32B7020BEF0A600EF4C51 /* oneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ACF32B3820BEE58300EF4C51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF32B4C20BEE58300EF4C51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF32B5720BEE58300EF4C51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,9 +50,7 @@
 		ACF32B3220BEE58300EF4C51 = {
 			isa = PBXGroup;
 			children = (
-				ACF32B3D20BEE58300EF4C51 /* demo3 */,
-				ACF32B5220BEE58300EF4C51 /* demo3Tests */,
-				ACF32B5D20BEE58300EF4C51 /* demo3UITests */,
+				ACF32B3D20BEE58300EF4C51 /* 自定义导航 */,
 				ACF32B3C20BEE58300EF4C51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +58,36 @@
 		ACF32B3C20BEE58300EF4C51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACF32B3B20BEE58300EF4C51 /* demo3.app */,
-				ACF32B4F20BEE58300EF4C51 /* demo3Tests.xctest */,
-				ACF32B5A20BEE58300EF4C51 /* demo3UITests.xctest */,
+				ACF32B3B20BEE58300EF4C51 /* 自定义导航.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACF32B3D20BEE58300EF4C51 /* demo3 */ = {
+		ACF32B3D20BEE58300EF4C51 /* 自定义导航 */ = {
 			isa = PBXGroup;
 			children = (
 				ACF32B3E20BEE58300EF4C51 /* AppDelegate.swift */,
-				ACF32B4020BEE58300EF4C51 /* ViewController.swift */,
+				ACF32B6E20BEE94500EF4C51 /* BaseNavigationController.swift */,
+				ACF32B6C20BEE63700EF4C51 /* BaseViewController.swift */,
+				AC65F27820C03295008187FB /* BaseTabBarController.swift */,
+				ACC1618220BF98C900143A58 /* ShouYeviewcontroller.swift */,
+				ACF32B7020BEF0A600EF4C51 /* oneViewController.swift */,
+				AC65F27A20C03362008187FB /* FenLeiviewcontroller.swift */,
+				AC65F27C20C03370008187FB /* WoDeviewcontroller.swift */,
 				ACF32B4220BEE58300EF4C51 /* Main.storyboard */,
 				ACF32B4520BEE58300EF4C51 /* Assets.xcassets */,
 				ACF32B4720BEE58300EF4C51 /* LaunchScreen.storyboard */,
 				ACF32B4A20BEE58300EF4C51 /* Info.plist */,
 			);
-			path = demo3;
-			sourceTree = "<group>";
-		};
-		ACF32B5220BEE58300EF4C51 /* demo3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ACF32B5320BEE58300EF4C51 /* demo3Tests.swift */,
-				ACF32B5520BEE58300EF4C51 /* Info.plist */,
-			);
-			path = demo3Tests;
-			sourceTree = "<group>";
-		};
-		ACF32B5D20BEE58300EF4C51 /* demo3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACF32B5E20BEE58300EF4C51 /* demo3UITests.swift */,
-				ACF32B6020BEE58400EF4C51 /* Info.plist */,
-			);
-			path = demo3UITests;
+			path = "自定义导航";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACF32B3A20BEE58300EF4C51 /* demo3 */ = {
+		ACF32B3A20BEE58300EF4C51 /* 自定义导航 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACF32B6320BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "demo3" */;
+			buildConfigurationList = ACF32B6320BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "自定义导航" */;
 			buildPhases = (
 				ACF32B3720BEE58300EF4C51 /* Sources */,
 				ACF32B3820BEE58300EF4C51 /* Frameworks */,
@@ -140,46 +97,10 @@
 			);
 			dependencies = (
 			);
-			name = demo3;
+			name = "自定义导航";
 			productName = demo3;
-			productReference = ACF32B3B20BEE58300EF4C51 /* demo3.app */;
+			productReference = ACF32B3B20BEE58300EF4C51 /* 自定义导航.app */;
 			productType = "com.apple.product-type.application";
-		};
-		ACF32B4E20BEE58300EF4C51 /* demo3Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACF32B6620BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "demo3Tests" */;
-			buildPhases = (
-				ACF32B4B20BEE58300EF4C51 /* Sources */,
-				ACF32B4C20BEE58300EF4C51 /* Frameworks */,
-				ACF32B4D20BEE58300EF4C51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACF32B5120BEE58300EF4C51 /* PBXTargetDependency */,
-			);
-			name = demo3Tests;
-			productName = demo3Tests;
-			productReference = ACF32B4F20BEE58300EF4C51 /* demo3Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ACF32B5920BEE58300EF4C51 /* demo3UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACF32B6920BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "demo3UITests" */;
-			buildPhases = (
-				ACF32B5620BEE58300EF4C51 /* Sources */,
-				ACF32B5720BEE58300EF4C51 /* Frameworks */,
-				ACF32B5820BEE58300EF4C51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACF32B5C20BEE58300EF4C51 /* PBXTargetDependency */,
-			);
-			name = demo3UITests;
-			productName = demo3UITests;
-			productReference = ACF32B5A20BEE58300EF4C51 /* demo3UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,19 +116,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					ACF32B4E20BEE58300EF4C51 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = ACF32B3A20BEE58300EF4C51;
-					};
-					ACF32B5920BEE58300EF4C51 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = ACF32B3A20BEE58300EF4C51;
-					};
 				};
 			};
-			buildConfigurationList = ACF32B3620BEE58300EF4C51 /* Build configuration list for PBXProject "demo3" */;
+			buildConfigurationList = ACF32B3620BEE58300EF4C51 /* Build configuration list for PBXProject "自定义导航" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACF32B3A20BEE58300EF4C51 /* demo3 */,
-				ACF32B4E20BEE58300EF4C51 /* demo3Tests */,
-				ACF32B5920BEE58300EF4C51 /* demo3UITests */,
+				ACF32B3A20BEE58300EF4C51 /* 自定义导航 */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +147,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACF32B4D20BEE58300EF4C51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF32B5820BEE58300EF4C51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,41 +154,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF32B4120BEE58300EF4C51 /* ViewController.swift in Sources */,
+				ACF32B6F20BEE94500EF4C51 /* BaseNavigationController.swift in Sources */,
+				ACC1618320BF98C900143A58 /* ShouYeviewcontroller.swift in Sources */,
+				AC65F27920C03295008187FB /* BaseTabBarController.swift in Sources */,
+				AC65F27D20C03370008187FB /* WoDeviewcontroller.swift in Sources */,
 				ACF32B3F20BEE58300EF4C51 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF32B4B20BEE58300EF4C51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF32B5420BEE58300EF4C51 /* demo3Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF32B5620BEE58300EF4C51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF32B5F20BEE58300EF4C51 /* demo3UITests.swift in Sources */,
+				ACF32B6D20BEE63700EF4C51 /* BaseViewController.swift in Sources */,
+				ACF32B7120BEF0A600EF4C51 /* oneViewController.swift in Sources */,
+				AC65F27B20C03362008187FB /* FenLeiviewcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ACF32B5120BEE58300EF4C51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACF32B3A20BEE58300EF4C51 /* demo3 */;
-			targetProxy = ACF32B5020BEE58300EF4C51 /* PBXContainerItemProxy */;
-		};
-		ACF32B5C20BEE58300EF4C51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACF32B3A20BEE58300EF4C51 /* demo3 */;
-			targetProxy = ACF32B5B20BEE58300EF4C51 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACF32B4220BEE58300EF4C51 /* Main.storyboard */ = {
@@ -427,7 +299,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo3/Info.plist;
+				DEVELOPMENT_TEAM = NHKMUU2TB8;
+				INFOPLIST_FILE = "自定义导航/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +314,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo3/Info.plist;
+				DEVELOPMENT_TEAM = NHKMUU2TB8;
+				INFOPLIST_FILE = "自定义导航/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,72 +324,10 @@
 			};
 			name = Release;
 		};
-		ACF32B6720BEE58400EF4C51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo3Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.demo3Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo3.app/demo3";
-			};
-			name = Debug;
-		};
-		ACF32B6820BEE58400EF4C51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo3Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.demo3Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo3.app/demo3";
-			};
-			name = Release;
-		};
-		ACF32B6A20BEE58400EF4C51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo3UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.demo3UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = demo3;
-			};
-			name = Debug;
-		};
-		ACF32B6B20BEE58400EF4C51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo3UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.demo3UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = demo3;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACF32B3620BEE58300EF4C51 /* Build configuration list for PBXProject "demo3" */ = {
+		ACF32B3620BEE58300EF4C51 /* Build configuration list for PBXProject "自定义导航" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACF32B6120BEE58400EF4C51 /* Debug */,
@@ -524,29 +336,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACF32B6320BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "demo3" */ = {
+		ACF32B6320BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "自定义导航" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACF32B6420BEE58400EF4C51 /* Debug */,
 				ACF32B6520BEE58400EF4C51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACF32B6620BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "demo3Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACF32B6720BEE58400EF4C51 /* Debug */,
-				ACF32B6820BEE58400EF4C51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACF32B6920BEE58400EF4C51 /* Build configuration list for PBXNativeTarget "demo3UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACF32B6A20BEE58400EF4C51 /* Debug */,
-				ACF32B6B20BEE58400EF4C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
